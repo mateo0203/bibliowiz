@@ -1,2 +1,2 @@
 # bibliowiz
-Google Chrome extension used to display references on research papers bodies
+Google Chrome extension used to display references on the body of Research Papers
