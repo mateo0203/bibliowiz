@@ -5,7 +5,9 @@ This Chrome extension is designed for individuals who frequently read research p
 
 # Features:
 Hover-to-View: Simply hover over an in-text citation to view the corresponding reference details.
+
 Direct Access to Information: Avoid the need to scroll or navigate to the reference section to get details about a specific citation.
+
 Clean and Minimalistic UI: The pop-up is designed to provide the essential details without cluttering your reading space.
 
 # Limitations:
