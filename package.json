@@ -1,0 +1,26 @@
+{
+  "name": "bibliowiz",
+  "version": "1.0.0",
+  "description": "Google Chrome extension used to display references on the body of Research Papers",
+  "scripts": {
+    "build": "parcel build src/popup/test.html src/scripts/content.js --public-url ./",
+    "watch": "parcel watch src/popup/test.html src/scripts/content.js --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateo0203/bibliowiz.git"
+  },
+  "author": "sudacas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateo0203/bibliowiz/issues"
+  },
+  "homepage": "https://github.com/mateo0203/bibliowiz#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "pdfjs-dist": "^3.10.111"
+  }
+}

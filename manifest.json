@@ -4,17 +4,19 @@
     "version": "1.0",
     "description": "Google Chrome extension used to display references on the body of Research Papers",
     "icons": {
-        "128": "images/wizard-128.png"
+        "128": "src/images/wizard-128.png"
       },
       "action": {
-        "default_popup": "test.html"
+        "default_popup": "src/popups/test.html"
       },
+      "permissions": [
+              "activeTab"
+            ],
       "content_scripts": [
         {
-          "js": ["scripts/content.js"],
+          "js": ["dist/content.js"],
           "matches": [
-            "https://developer.chrome.com/docs/extensions/*",
-            "https://developer.chrome.com/docs/webstore/*"
+            "<all_urls>"
           ]
         }
       ]
